@@ -45,6 +45,7 @@ def main():
     a = [2, 4, 6]
     print(a[0:2]) #代表0到end-1, 為0,1
     print(a[:])
+    print(sum(a[0:2]))
 
 
 

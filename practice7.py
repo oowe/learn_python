@@ -2,7 +2,16 @@
 
 def main():
     
-
-
+    people = []
+    for i in range(1,11):
+        print("請輸入第{}個數字:".format(i))
+        people.append(int(input()))
+    print(people)
+    for i in range(1,6):
+        print("請輸入第%d個的開始和結束位置:" % i)
+        start = int(input('頭:'))
+        end = int(input("尾:"))
+        print(sum(people[start:end]))
+    
 if __name__ == '__main__':
     main()
